@@ -1,4 +1,4 @@
-train_net: "models/pascal_voc/ResNet-101/rfcn_end2end/train_agonistic_ohem.prototxt"
+train_net: "models/vehicle/ResNet-101/rfcn_end2end/train_agonistic_ohem.prototxt"
 lr_policy: "fixed"
 base_lr: 0.0001
 
