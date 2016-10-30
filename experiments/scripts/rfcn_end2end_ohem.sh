@@ -29,6 +29,18 @@ case $DATASET in
     PT_DIR="pascal_voc"
     ITERS=110000
     ;;
+  signal)
+    TRAIN_IMDB="signal_train"
+    TEST_IMDB="signal_test"
+    PT_DIR="signal"
+    ITERS=110000
+    ;;
+  vehicle)
+    TRAIN_IMDB="vehicle_train"
+    TEST_IMDB="vehicle_test"
+    PT_DIR="vehicle"
+    ITERS=110000
+    ;;
   coco)
     # This is a very long and slow training schedule
     # You can probably use fewer iterations and reduce the
